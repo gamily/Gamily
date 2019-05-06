@@ -1,0 +1,31 @@
+  #root {
+    width:auto;
+    height:auto;
+    position: relative;
+  }
+  
+  .landing {   
+    width: 600px;
+    height: 141px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: Gugi;
+    font-size: 141px;
+    text-align:center;
+    z-index:1;
+  }
+  
+  .sublanding{  
+    height: 49px;
+    font-size: 45px;
+  }
+  
+  .line {
+    width: 600px;
+    height: 47px;
+    border-radius: 20px;
+    background-color: #ff8a5f;
+    z-index:-1;
+    margin-top: -60px;
+  }

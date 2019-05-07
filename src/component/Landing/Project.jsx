@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Project from './Project';
 
-export default class Content extends Component{
+export default class Project extends Component{
     constructor(props){
         super(props)
     }
 
    render(){
        return( 
-            <div className="content">           
-                <Project />     
+            <div className="project">                
             </div>                                
        )
    }    

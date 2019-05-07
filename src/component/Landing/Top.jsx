@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Line from '../Common/Line';
 import landingvideo from '../../video/LandingVideo.mov';
 
 export default class Top extends Component{
@@ -9,15 +8,15 @@ export default class Top extends Component{
 
    render(){
        return( 
-            <div className="top">           
-                <div className="landingvideobg">
+            <div className="top">    
+              
                     <video className="landingvideo" loop autoPlay>
                         <source src={landingvideo} type="video/mp4" />
-                    </video>        
-                </div>    
+                    </video> 
+                  
                 <div className="landing">
                     Gamily                                                     
-                    <div class="sublanding">
+                    <div className="sublanding">
                         <div>
                             Software Solutions
                         </div>

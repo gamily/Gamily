@@ -7,10 +7,12 @@ export default class LandingVideo extends Component{
     }
 
    render(){
-       return(                     
-            <video id="landingvideo" loop autoPlay>
-                <source src={landingvideo} type="video/mp4" />
-            </video>        
+       return(       
+           <div className="landingvideobg">
+                <video className="landingvideo" loop autoPlay>
+                    <source src={landingvideo} type="video/mp4" />
+                </video>        
+           </div>              
      )
    }    
 }

@@ -59,13 +59,16 @@
     color:#ffffff;   
   }
 
-  .landing::after {
+  .landing::after{
     content: "";
-    position: absolue;
-    bottom: 0;
+    position: absolute;
     left: 0;
     width: 100%;
-    border-top: solid 30px rgba(255, 0, 0, 0.5);
+    display: inline-block;
+    border-radius: 20px;   
+    bottom: 0;
+    border-top: solid 40px rgba(255, 138, 95, 0.8);
+      z-index: -1;
   }
   
   .sublanding{  

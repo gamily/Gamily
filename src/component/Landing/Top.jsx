@@ -16,7 +16,7 @@ export default class Top extends Component{
                     </video>        
                 </div>    
                 <div className="landing">
-                    Gamily                                                                                    
+                    Gamily                                                     
                     <div class="sublanding">
                         <div>
                             Software Solutions

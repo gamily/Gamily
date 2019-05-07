@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Line from "../Common/Line";
 import SubLanging from "./SubLanging";
+import LandingVideo from "./LandingVideo";
 
 
 export default class Langing extends Component{
@@ -9,11 +10,12 @@ export default class Langing extends Component{
     }
 
    render(){
-       return(
-        <div className="landing">Gamily
+       return(                                
+        <div className="landing">Gamily                  
+            <LandingVideo />            
             <Line />
             <SubLanging />
-        </div>
+        </div>        
        )
    }    
 }

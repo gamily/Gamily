@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import landingvideo from '../../video/LandingVideo.mov';
+import LandingVideo from '../../video/LandingVideo.mov';
 
 export default class Top extends Component{
     constructor(props){
@@ -11,7 +11,7 @@ export default class Top extends Component{
             <div className="top">    
               
                     <video className="landingvideo" loop autoPlay>
-                        <source src={landingvideo} type="video/mp4" />
+                        <source src={LandingVideo} type="video/mp4" />
                     </video> 
                   
                 <div className="landing">

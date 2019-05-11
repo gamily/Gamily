@@ -7,7 +7,16 @@ export default class Project extends Component{
 
    render(){
        return( 
-            <div className="project">                
+            <div className={this.props.class}>       
+                    <div className={this.props.projectcover}> 
+                        <img  src={this.props.picture} alt="" />
+                    </div>         
+                    <div className={this.props.projecttitle}>
+                        {this.props.title}                              
+                    </div>
+                    <div className={this.props.projectcontent}>                    
+                        {this.props.content}                        
+                    </div>
             </div>                                
        )
    }    

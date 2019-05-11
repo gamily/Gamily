@@ -12,6 +12,7 @@ export default class Content extends Component{
        return( 
             <div className="content">     
               <Project 
+                href="https://www.musicbravo.com.tw"
                 class="project"
                 projectcover="projectcover-left"
                 projecttitle="projecttitle-right"
@@ -21,6 +22,7 @@ export default class Content extends Component{
                 content="音樂霸是全球首創的網路唱片公司，讓音樂人能自主發起專案、尋找夥伴、銷售並且獲得收益。
                 線上集結推動華語音樂的大師們，讓不論是擅長唱歌、作詞、作曲或是混音的你，都能透過音樂霸找到契合的伙伴。" />
                  <Project 
+                href="http://official.friendo.com.tw"
                 class="project1"
                 projectcover="projectcover-right"
                 projecttitle="projecttitle-left"
